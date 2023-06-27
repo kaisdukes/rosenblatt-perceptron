@@ -2,7 +2,7 @@
 
 [Dr. Kais Dukes](https://github.com/kaisdukes)
 
-*This is the second article in an educational series on the history of the math behind neural networks. For part 1, see [McCulloch-Pitts: The First Computational Neuron](https://github.com/kaisdukes/mcculloch-pitts-neuron). As with the previous article, to appeal to a wider audience, I've minimized technical jargon and provided simplified explanations. This article includes accompanying code in Python.*
+*This is the second article in an educational series on the history of the math behind neural networks. For part 1, see [McCulloch-Pitts: The First Computational Neuron](https://github.com/kaisdukes/mcculloch-pitts-neuron). As with the previous article, to appeal to a wider audience, I've minimized technical jargon and provided simplified explanations. This article includes accompanying code in Python. Published on [LinkedIn](https://www.linkedin.com/pulse/history-neural-networks-part-2-rosenblatts-perceptron-dr-kais-dukes) on June 27, 2023.*
 
 ![](https://github.com/kaisdukes/rosenblatt-perceptron/blob/main/neurons.jpeg)
 
