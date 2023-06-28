@@ -81,7 +81,7 @@ We can use a form of [gradient descent](https://en.wikipedia.org/wiki/Gradient_d
 
 While MSE is a useful loss function for learning about perceptrons, it might not always be the most effective choice. However, it makes gradient descent and weight updates mathematically elegant and efficient. Note that we use the term `1/2` instead of `1/n` to simplify the derivative calculations in the next section. Once again, it's worth mentioning Gauss, the renowned 18th century genius mathematician and polymath, who introduced the method of least squares.
 
-## The Perceptron Learning Rule
+## Gradient Descent
 
 Let's now derive the formula for updating the weights and bias. In more advanced training methods, like batch gradient descent, we would consider multiple training examples simultaneously. But to keep things simple, we'll update the weights one example at a time. While it's tempting to consider the standard perceptron learning algorithm as performing Stochastic Gradient Descent (SGD), that's not strictly true. You can think of the perceptron algorithm as a unique variant of SGD. In true SGD, the weights are updated after each example, regardless of whether the example is classified correctly or not.
 
