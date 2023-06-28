@@ -69,7 +69,7 @@ The perceptron learning algorithm proceeds as follows:
 
 We can understand how to minimize errors by introducing a loss function, also known as an error function. Although not always used in practice, for a simplified view one possible choice of loss function for the perceptron is the [mean squared error](https://en.wikipedia.org/wiki/Mean_squared_error) (MSE). This is defined using the squared difference between the expected classification and the weighted sum. Other choices for loss functions include the perceptron criterion or hinge loss.
 
-The Python code accompanying this article utilizes a perceptron as a binary classifier for two types of flowers in Fisher's classic [Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). While the code uses the perceptron criterion for practicality, the explanation below uses MSE as a learning exercise. MSE is also more applicable to other machine learning models.
+The Python code accompanying this article utilizes a perceptron as a binary classifier for two types of flowers in Fisher's classic [Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). While the code uses the perceptron criterion for practicality, the explanation below uses MSE as a learning exercise. MSE is also more applicable to other machine learning models (see also [ADALINE](https://en.wikipedia.org/wiki/ADALINE)).
 
 Let `y` be the expected classification (1 or 0) for a specific example with input `x`. We then define the MSE loss function by summing over training examples:
 
